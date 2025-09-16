@@ -1,9 +1,6 @@
 update IV_THREAT_ADVERSARIES 
 set
-        ADVERSARY_OBJECTIVE = 'Remote Access Trojan (RAT)',
-        ADVERSARY_SUBCATEGORY = 'Trojan',
-        ADVERSARY_TECH_DETAILS = 'XWorm V5.6 is a Remote Access Trojan (RAT) known for its advanced capabilities, including keylogging, screen capturing, and remote control of the infected machine. It typically spreads through phishing emails containing a .rar attachment. When the recipient opens this attachment, it extracts an executable (.exe) file. Once executed, this file initiates a process injection, allowing the malware to embed itself into legitimate processes running on the system. This technique helps XWorm evade detection by security software.',
-where ADVERSARY_ID = 558;
+        ADVERSARY_OBJECTIVE = 'Remote Access Trojan (RAT)';
 
 update IV_INDICATORS_OF_COMPROMISE
 set
